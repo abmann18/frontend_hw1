@@ -1,0 +1,27 @@
+@import "buttons";
+
+//variables
+
+$buttoncolor: #eee;
+
+//styles
+
+body{
+	font-family: helvetica;
+}
+.button1{
+	border-radius: 3px;
+	background-color: $buttoncolor;
+	height: 50px;
+	width: 150px;
+	margin-top: 15px;
+	float: left;
+}
+.button2{
+	border-radius: 3px;
+	background-color: #777;
+	height: 50px;
+	width: 150px;
+	margin: 15px 0 0 15px;
+	float: left;
+}
